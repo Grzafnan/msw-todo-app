@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["msw"],
+  },
+  "esModuleInterop": true,
+  "module": "ESNext",
+  "target": "ES6",
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

@@ -9,9 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --ui",
-    "server": "json-server --watch db.json --port 5000",
-    "start": "concurrently \"vite\" \"json-server --watch db.json --port 5000\""
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

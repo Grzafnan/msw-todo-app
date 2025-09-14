@@ -4,7 +4,6 @@
   },
   "esModuleInterop": true,
   "module": "ESNext",
-  "target": "ES6",
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

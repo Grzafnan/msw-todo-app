@@ -189,12 +189,13 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
 
           <div className="relative">
             <Button
+              title='Actions'
               variant="ghost"
               size="sm"
               onClick={() => setShowMenu(!showMenu)}
               className="w-8 h-8 p-0"
             >
-              <MoreHorizontal className="w-4 h-4" />
+              <MoreHorizontal className="w-4 h-4 text-gray-600 dark:text-gray-400" />
             </Button>
 
             {showMenu && (
